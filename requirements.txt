@@ -1,0 +1,4 @@
+stable-baselines3==2.7.1
+gymnasium==1.2.3
+tensorboard==2.20.0
+setuptools=70.*
