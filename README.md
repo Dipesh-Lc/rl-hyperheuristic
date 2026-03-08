@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.3-orange)
 ![RL](https://img.shields.io/badge/Reinforcement%20Learning-DQN-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
@@ -585,13 +584,73 @@ This project demonstrates:
 # Future Work
 
 Possible extensions:
-
+- Integrate a quantum-enhanced heuristic operator (QAOA-based) into the RL hyper-heuristic operator set.
 - multi-objective scheduling
 - adaptive operator sets
 - meta-learning across distributions
 
 ---
 
-# License
+# References
 
-MIT License
+The mathematical formulations and concepts used in this project are based on established work in scheduling theory, hyper-heuristics, and reinforcement learning.
+
+1. **Scheduling Theory**
+
+   Michael Pinedo.  
+   *Scheduling: Theory, Algorithms, and Systems*.  
+   Springer, 5th Edition, 2016.
+
+2. **Parallel Machine Scheduling**
+
+   Ronald L. Graham.  
+   "Bounds on multiprocessing timing anomalies."  
+   *SIAM Journal on Applied Mathematics*, 17(2), 416-429, 1969.
+
+3. **Longest Processing Time (LPT) Rule**
+
+   Ronald L. Graham.  
+   "Bounds for Certain Multiprocessing Anomalies."  
+   *Bell System Technical Journal*, 45(9), 1563–1581, 1966.
+
+4. **Hyper-Heuristics**
+
+   Edmund K. Burke, Michel Gendreau, Matthew Hyde, Graham Kendall, Gabriela Ochoa, Ender Özcan, and Rong Qu.  
+   "Hyper-heuristics: A survey of the state of the art."  
+   *Journal of the Operational Research Society*, 64(12), 1695–1724, 2013.
+
+5. **Hyper-Heuristics for Combinatorial Optimization**
+
+   Edmund K. Burke, Graham Kendall.  
+   *Search Methodologies: Introductory Tutorials in Optimization and Decision Support Techniques*.  
+   Springer, 2014.
+
+6. **Reinforcement Learning Foundations**
+
+   Richard S. Sutton and Andrew G. Barto.  
+   *Reinforcement Learning: An Introduction*.  
+   MIT Press, Second Edition, 2018.
+
+7. **Q-Learning**
+
+   Christopher J. C. H. Watkins and Peter Dayan.  
+   "Q-learning."  
+   *Machine Learning*, 8, 279–292, 1992.
+
+8. **Deep Q-Networks**
+
+   Volodymyr Mnih et al.  
+   "Human-level control through deep reinforcement learning."  
+   *Nature*, 518, 529–533, 2015.
+
+9. **Reinforcement Learning for Combinatorial Optimization**
+
+   Irwan Bello et al.  
+   "Neural Combinatorial Optimization with Reinforcement Learning."  
+   *International Conference on Learning Representations (ICLR)*, 2017.
+
+10. **Reinforcement Learning Hyper-Heuristics**
+
+   Ender Özcan, Mustafa Misir, Gabriela Ochoa, and Edmund Burke.  
+   "A reinforcement learning approach to hyper-heuristics."  
+   *European Journal of Operational Research*, 2010.
